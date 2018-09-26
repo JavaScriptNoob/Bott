@@ -1,4 +1,6 @@
 
+   
+ 
 body{
     background-color: #f2f2f2;
     font-family: "roboto";
@@ -7,6 +9,9 @@ body{
 -webkit-font-smoothing:antialiased;
 -webkit-overflow-scrolling: touch;
 margin-top:70px;
+font-family: 'Text Me One', sans-serif;
+  font-size: 26px;
+  text-shadow: 4px 4px 4px rgba(185, 154, 154, 0.596);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Courier New', Courier, monospace;
@@ -99,7 +104,7 @@ hr {
 #headerwrap h2 {
     
     color:white;
-    font-size:40px;
+    font-size:36px;
     font-weight:300;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -170,3 +175,6 @@ transition: all 0.5s ease;
 .responsive {
     width: 100%
 } 
+.col-lg-offset-2 {
+    text-align: center;
+}
